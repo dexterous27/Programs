@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+ int arr[5];
+ cout<<"Enter elements:";
+ cin>>arr[1]>>arr[2]>>arr[3]>>arr[4]>>arr[5];
+ cout<<"You entered:";
+ cout<<arr[1]<<arr[2]<<arr[3]<<arr[4]<<arr[5];
+ return 0;
+}
